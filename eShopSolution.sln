@@ -11,9 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Hosts", "3. Hosts", "{22B973D3-CCF9-4ABC-A6BD-127064E81D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{390B7F20-B006-4EE5-97E7-BF49ED1A9BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{390B7F20-B006-4EE5-97E7-BF49ED1A9BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{0D9B8935-608C-41DB-A5C3-CA42ADA67044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{0D9B8935-608C-41DB-A5C3-CA42ADA67044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.BackendApi", "eShopSolution.BackendApi\eShopSolution.BackendApi.csproj", "{D9879823-56B0-4803-A440-0C88308469B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.ViewModels", "eShopSolution.ViewModels\eShopSolution.ViewModels.csproj", "{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{0D9B8935-608C-41DB-A5C3-CA42ADA67044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D9B8935-608C-41DB-A5C3-CA42ADA67044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D9B8935-608C-41DB-A5C3-CA42ADA67044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9879823-56B0-4803-A440-0C88308469B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9879823-56B0-4803-A440-0C88308469B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9879823-56B0-4803-A440-0C88308469B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9879823-56B0-4803-A440-0C88308469B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{390B7F20-B006-4EE5-97E7-BF49ED1A9BAA} = {22B973D3-CCF9-4ABC-A6BD-127064E81D3A}
 		{0D9B8935-608C-41DB-A5C3-CA42ADA67044} = {0A4ACAC1-E8DA-4E7E-9E36-DA46174B22F6}
+		{D9879823-56B0-4803-A440-0C88308469B5} = {22B973D3-CCF9-4ABC-A6BD-127064E81D3A}
+		{BA18CA3A-1A69-45FD-9BA4-1EFD0F9AE779} = {AEA0B660-2715-417E-A0E8-500B8358AE2C}
+		{0E854988-3D0C-4FC2-9C0D-F91A7A0D9F96} = {22B973D3-CCF9-4ABC-A6BD-127064E81D3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59B98503-C1A2-4B93-8F58-92C381107CB7}
